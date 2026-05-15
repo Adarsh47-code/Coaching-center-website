@@ -243,7 +243,13 @@ p {
     .sub-heading{
         font-size: 0.7rem;
     }
-    /* .main-name{
-        font-size: 0.8rem;
-    } */
+}
+@media (max-width: 354px){
+    .main-name{
+        font-size: 1.5rem;
+    }
+    .sub-heading{
+        font-size: 0.6rem;
+        letter-spacing: 1.5px;
+    }
 }
